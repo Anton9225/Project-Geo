@@ -45,6 +45,10 @@
   display: none;
 }
 
+.smart__menu-img {
+  display: none;
+}
+
 .header__form {
   display: -webkit-box;
   display: -ms-flexbox;
