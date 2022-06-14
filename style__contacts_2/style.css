@@ -120,7 +120,7 @@ li {
 
 .select__form {
   max-width: 97px;
-  background: url(../img/siteheader.png);
+  background: none;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
@@ -321,6 +321,12 @@ footer {
   line-height: 24px;
   text-align: center;
   color: #FFFFFF;
+}
+
+@media (max-width: 1440px) {
+  .link__index {
+    max-width: 100%;
+  }
 }
 
 @media (max-width: 1024px) {

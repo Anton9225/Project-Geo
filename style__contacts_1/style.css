@@ -116,7 +116,7 @@ li {
 
 .select__form {
   max-width: 97px;
-  background: url(../img/siteheader.png);
+  background: none;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
