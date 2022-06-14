@@ -1,13 +1,558 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>hello world</h1>
-    <p>123</p>
-</body>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Geo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style__news_1/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="conteiner__header">
+        <a href="#" class="header__logo">
+          <img class="header__logo-img" src="./img/logo.png" alt="logo"
+        /></a>
+        <div class="smart__menu">
+          <img class="smart__menu-img" src="./img/icon-menu.png" alt="menu">
+        </div>
+        <div class="header__menu">
+          <nav class="header__menu-nav">
+            <ul class="header__list">
+              <li>
+                <a href="home_page_1.html" class="header__link">Главная</a>
+                <a href="about_company.html" class="header__link">О компании</a>
+                <a href="drilling_operations.html" class="header__link">Услуги</a>
+                <a href="news_1.html" class="header__link">Новости</a>
+                <a href="contacts_1.html" class="header__link">контакты</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header__tel-link">
+            <img class="tel__link-img" src="./img/Group 8.png" alt="tel" />
+            <a class="header__link tel__link" href="#"
+              >+7 (7172) 24 72 80 Заказать звонок</a
+            >
+          </div>
+          <div class="header__line"></div>
+          <div class="header__form">
+            <a class="header__form-link" href="#"
+              ><img src="./img/Vector.png" alt="vector"
+            /></a>
+            <img
+              class="header__form-img"
+              src="./img/Group 2805.png"
+              alt="flag"
+            />
+            <form class="form__search">
+              <select class="select__form" id="country" name="country">
+                <option value="au">Русский</option>
+                <option value="ca">Беларуский</option>
+                <option value="usa">Украинский</option>
+              </select>
+            </form>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <div class="link__index">
+        <a class="link__index-text" href="#">Главная ></a>
+        <a class="link__index-text" href="#">Новости</a>
+        <a class="link__index-text color" href="#"> > Буровые работы</a>
+      </div>
+      <div class="wrapper">
+        <div class="wrapper__column-left">
+          <h2 class="column-left__title-top">Топ новостей</h2>
+          <div class="conteiner__column-left">
+            <div class="wrapper__top-news">
+              <img
+                class="img__top-news"
+                src="./img/Rectangle 11.png"
+                alt="img"
+              />
+              <div class="content__top-news">
+                <p class="date__top-news">12.21.2014</p>
+                <h2 class="title__top-news">
+                  <a class="title__top-link" href="#"
+                    >Проектирование горных производств</a
+                  >
+                </h2>
+                <p class="text__top-news">
+                  Мinerals Operating – это молодая компания, которая оказывает
+                  услуги в сфере недропользования на территории Казахстана. Мы
+                  одна из первых компаний являющихся лицензированным
+                  консультантом в сфере минеральных ресурсов (лицензия
+                  №AFSA-A-LA-2020-0004). Мinerals
+                </p>
+              </div>
+            </div>
+            <div class="content__our-news">
+              <div class="namber__page">
+                <div class="namber__page-1 dye">
+                  <a class="namber__page-link dye" href="#">1</a>
+                </div>
+                <div class="namber__page-1">
+                  <a class="namber__page-link" href="#">2</a>
+                </div>
+                <div class="namber__page-1">
+                  <a class="namber__page-link" href="#">3</a>
+                </div>
+                <div class="namber__page-1">
+                  <a class="namber__page-link" href="#">4</a>
+                </div>
+                <div class="namber__page-1">
+                  <a class="namber__page-link" href="#">5</a>
+                </div>
+                <div class="namber__page-1 non-border">
+                  <a class="namber__page-link" href="#">></a>
+                </div>
+              </div>
+              <h2 class="column-left__title-top">Наши новости</h2>
+              <div class="conteiner__our-news">
+                <div class="block__our-news">
+                  <a href="#" class="block__our-news-link">
+                    <img
+                      class="block__our-news-img"
+                      src="./img/Rectangle 11111.png"
+                      alt="img"
+                    />
+                    <div class="content__our-news">
+                      <p class="date__our-news">12.21.2014</p>
+                      <h2 class="title__our-news">
+                        <a class="title__our-link" href="#"
+                          >Проектирование горных производств</a
+                        >
+                      </h2>
+                      <p class="text__our-news">
+                        Мinerals Operating – это молодая компания, которая
+                        оказывает...
+                      </p>
+                    </div>
+                  </a>
+                </div>
+                <div class="block__our-news">
+                  <a href="#" class="block__our-news-link">
+                    <img
+                      class="our-news-img"
+                      src="./img/Rectangle 11111.png"
+                      alt="img"
+                    />
+                    <div class="content__our-news">
+                      <p class="date__our-news">12.21.2014</p>
+                      <h2 class="title__our-news">
+                        <a class="title__our-link" href="#"
+                          >Проектирование горных производств</a
+                        >
+                      </h2>
+                      <p class="text__our-news">
+                        Мinerals Operating – это молодая компания, которая
+                        оказывает...
+                      </p>
+                    </div>
+                  </a>
+                </div>
+                <div class="block__our-news">
+                  <a href="#" class="block__our-news-link">
+                    <img
+                      class="block__our-news-img"
+                      src="./img/Rectangle 11111.png"
+                      alt="img"
+                    />
+                    <div class="content__our-news">
+                      <p class="date__our-news">12.21.2014</p>
+                      <h2 class="title__our-news">
+                        <a class="title__our-link" href="#"
+                          >Проектирование горных производств</a
+                        >
+                      </h2>
+                      <p class="text__our-news">
+                        Мinerals Operating – это молодая компания, которая
+                        оказывает...
+                      </p>
+                    </div>
+                  </a>
+                </div>
+                <div class="block__our-news">
+                  <a href="#" class="block__our-news-link">
+                    <img
+                      class="block__our-news-img"
+                      src="./img/Rectangle 11111.png"
+                      alt="img"
+                    />
+                    <div class="content__our-news">
+                      <p class="date__our-news">12.21.2014</p>
+                      <h2 class="title__our-news">
+                        <a class="title__our-link" href="#"
+                          >Проектирование горных производств</a
+                        >
+                      </h2>
+                      <p class="text__our-news">
+                        Мinerals Operating – это молодая компания, которая
+                        оказывает...
+                      </p>
+                    </div>
+                  </a>
+                </div>
+                <div class="block__our-news">
+                  <a href="#" class="block__our-news-link">
+                    <img
+                      class="block__our-news-img"
+                      src="./img/Rectangle 11111.png"
+                      alt="img"
+                    />
+                    <div class="content__our-news">
+                      <p class="date__our-news">12.21.2014</p>
+                      <h2 class="title__our-news">
+                        <a class="title__our-link" href="#"
+                          >Проектирование горных производств</a
+                        >
+                      </h2>
+                      <p class="text__our-news">
+                        Мinerals Operating – это молодая компания, которая
+                        оказывает...
+                      </p>
+                    </div>
+                  </a>
+                </div>
+                <div class="block__our-news">
+                  <a href="#" class="block__our-news-link">
+                    <img
+                      class="block__our-news-img"
+                      src="./img/Rectangle 11111.png"
+                      alt="img"
+                    />
+                    <div class="content__our-news">
+                      <p class="date__our-news">12.21.2014</p>
+                      <h2 class="title__our-news">
+                        <a class="title__our-link" href="#"
+                          >Проектирование горных производств</a
+                        >
+                      </h2>
+                      <p class="text__our-news">
+                        Мinerals Operating – это молодая компания, которая
+                        оказывает...
+                      </p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="namber__page line_2">
+                <div class="namber__page-2 dye">
+                  <a class="namber__page-link dye" href="#">1</a>
+                </div>
+                <div class="namber__page-2">
+                  <a class="namber__page-link" href="#">2</a>
+                </div>
+                <div class="namber__page-2">
+                  <a class="namber__page-link" href="#">3</a>
+                </div>
+                <div class="namber__page-2">
+                  <a class="namber__page-link" href="#">4</a>
+                </div>
+                <div class="namber__page-2">
+                  <a class="namber__page-link" href="#">5</a>
+                </div>
+                <div class="namber__page-2 non-border">
+                  <a class="namber__page-link" href="#">></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="wrapper__colunm-right">
+          <div class="column__right">
+            <h2 class="coumn__right-title">Последние новости</h2>
+            <div class="right__content">
+              <img
+                class="right__content-img"
+                src="./img/Rectangle 22222.png"
+                alt="img"
+              />
+              <div class="content__right-column">
+                <h2 class="title__right-column">
+                  <a class="title__right-link" href="#"
+                    >Горные производств...</a
+                  >
+                </h2>
+                <p class="text__right-column">
+                  Мinerals Operating – это молодая компания, которая...
+                </p>
+                <p class="date__right-column">12.21.2014</p>
+              </div>
+            </div>
+            <div class="right__content">
+              <img
+                class="right__content-img"
+                src="./img/Rectangle 22222.png"
+                alt="img"
+              />
+              <div class="content__right-column">
+                <h2 class="title__right-column">
+                  <a class="title__right-link" href="#"
+                    >Горные производств...</a
+                  >
+                </h2>
+                <p class="text__right-column">
+                  Мinerals Operating – это молодая компания, которая...
+                </p>
+                <p class="date__right-column">12.21.2014</p>
+              </div>
+            </div>
+            <div class="right__content">
+              <img
+                class="right__content-img"
+                src="./img/Rectangle 22222.png"
+                alt="img"
+              />
+              <div class="content__right-column">
+                <h2 class="title__right-column">
+                  <a class="title__right-link" href="#"
+                    >Горные производств...</a
+                  >
+                </h2>
+                <p class="text__right-column">
+                  Мinerals Operating – это молодая компания, которая...
+                </p>
+                <p class="date__right-column">12.21.2014</p>
+              </div>
+            </div>
+            <div class="right__content">
+              <img
+                class="right__content-img"
+                src="./img/Rectangle 22222.png"
+                alt="img"
+              />
+              <div class="content__right-column">
+                <h2 class="title__right-column">
+                  <a class="title__right-link" href="#"
+                    >Горные производств...</a
+                  >
+                </h2>
+                <p class="text__right-column">
+                  Мinerals Operating – это молодая компания, которая...
+                </p>
+                <p class="date__right-column">12.21.2014</p>
+              </div>
+            </div>
+          </div>
+          <div class="column__right">
+            <h2 class="coumn__right-title">Интересные новости</h2>
+            <div class="right__content">
+              <img
+                class="right__content-img"
+                src="./img/Rectangle 22222.png"
+                alt="img"
+              />
+              <div class="content__right-column">
+                <h2 class="title__right-column">
+                  <a class="title__right-link" href="#"
+                    >Горные производств...</a
+                  >
+                </h2>
+                <p class="text__right-column">
+                  Мinerals Operating – это молодая компания, которая...
+                </p>
+                <p class="date__right-column">12.21.2014</p>
+              </div>
+            </div>
+            <div class="right__content">
+              <img
+                class="right__content-img"
+                src="./img/Rectangle 22222.png"
+                alt="img"
+              />
+              <div class="content__right-column">
+                <h2 class="title__right-column">
+                  <a class="title__right-link" href="#"
+                    >Горные производств...</a
+                  >
+                </h2>
+                <p class="text__right-column">
+                  Мinerals Operating – это молодая компания, которая...
+                </p>
+                <p class="date__right-column">12.21.2014</p>
+              </div>
+            </div>
+            <div class="right__content">
+              <img
+                class="right__content-img"
+                src="./img/Rectangle 22222.png"
+                alt="img"
+              />
+              <div class="content__right-column">
+                <h2 class="title__right-column">
+                  <a class="title__right-link" href="#"
+                    >Горные производств...</a
+                  >
+                </h2>
+                <p class="text__right-column">
+                  Мinerals Operating – это молодая компания, которая...
+                </p>
+                <p class="date__right-column">12.21.2014</p>
+              </div>
+            </div>
+            <div class="right__content">
+              <img
+                class="right__content-img"
+                src="./img/Rectangle 22222.png"
+                alt="img"
+              />
+              <div class="content__right-column">
+                <h2 class="title__right-column">
+                  <a class="title__right-link" href="#"
+                    >Горные производств...</a
+                  >
+                </h2>
+                <p class="text__right-column">
+                  Мinerals Operating – это молодая компания, которая...
+                </p>
+                <p class="date__right-column">12.21.2014</p>
+              </div>
+            </div>
+          </div>
+          <div class="column__right">
+            <h2 class="coumn__right-title">Топ статьи</h2>
+            <div class="right__content">
+              <img
+                class="right__content-img"
+                src="./img/Rectangle 22222.png"
+                alt="img"
+              />
+              <div class="content__right-column">
+                <h2 class="title__right-column">
+                  <a class="title__right-link" href="#"
+                    >Горные производств...</a
+                  >
+                </h2>
+                <p class="text__right-column">
+                  Мinerals Operating – это молодая компания, которая...
+                </p>
+                <p class="date__right-column">12.21.2014</p>
+              </div>
+            </div>
+            <div class="right__content">
+              <img
+                class="right__content-img"
+                src="./img/Rectangle 22222.png"
+                alt="img"
+              />
+              <div class="content__right-column">
+                <h2 class="title__right-column">
+                  <a class="title__right-link" href="#"
+                    >Горные производств...</a
+                  >
+                </h2>
+                <p class="text__right-column">
+                  Мinerals Operating – это молодая компания, которая...
+                </p>
+                <p class="date__right-column">12.21.2014</p>
+              </div>
+            </div>
+            <div class="right__content">
+              <img
+                class="right__content-img"
+                src="./img/Rectangle 22222.png"
+                alt="img"
+              />
+              <div class="content__right-column">
+                <h2 class="title__right-column">
+                  <a class="title__right-link" href="#"
+                    >Горные производств...</a
+                  >
+                </h2>
+                <p class="text__right-column">
+                  Мinerals Operating – это молодая компания, которая...
+                </p>
+                <p class="date__right-column">12.21.2014</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="wrapper__footer">
+        <div class="column__footer one">
+          <div class="logo__footer">
+            <a class="basic__foter-link" href="#"><img class="logo__footer-img" src="./img/image 3.png" alt="logo" /></a>
+          </div>
+          <div class="info__footer">
+            <p class="info__footer-text">
+              Мinerals Operating – это молодая компания, которая оказывает
+              услуги в сфере недропользования на территории Казахстана. Мы одна
+              из первых компаний являющихся лицензированным консультантом в
+              сфере минеральных ресурсов (лицензия №AFSA-A-LA-2020-0004).
+            </p>
+          </div>
+        </div>
+        <div class="column__footer">
+          <div class="basic__footer">
+            <h2 class="basic__foter-title">Основное</h2>
+            <a href="#" class="basic__foter-link">Главная</a>
+            <a href="#" class="basic__foter-link">О нас</a>
+            <a href="#" class="basic__foter-link">Услуги</a>
+            <a href="#" class="basic__foter-link">Вакансии</a>
+          </div>
+        </div>
+        <div class="column__footer">
+          <div class="basic__footer">
+            <h2 class="basic__foter-title">Навигация</h2>
+            <a href="#" class="basic__foter-link">Контакты</a>
+            <a href="#" class="basic__foter-link">Помощь</a>
+            <a href="#" class="basic__foter-link">Политика</a>
+            <a href="#" class="basic__foter-link">Обратная связь</a>
+          </div>
+        </div>
+        <div class="column__footer">
+          <div class="basic__footer">
+            <h2 class="basic__foter-title">Контакты</h2>
+            <p class="basic__footer-text adres">
+              РК, г. Нур-Султан, Проспект Мангилик Ел, 55/21, этаж 1, Блок C4.2,
+              офис 164
+            </p>
+            <div class="tel">
+              <img class="tel__img" src="./img/tel.png" alt="tel" />
+              <a href="#" class="basic__foter-link nom-tel"
+                >+7 (7172) 24 72 80
+              </a>
+            </div>
+            <div class="basic__foter-social">
+              <a class="basic__foter-link" href="#"><img
+                class="social__img"
+                src="./img/instagram (2) 2.png"
+                alt="inst"
+                class="social"
+              /></a>
+              <a class="basic__foter-link" href="#"><img
+                class="social__img"
+                src="./img/facebook (2) 1.png"
+                alt="face"
+                class="social"
+              /></a>
+              <a class="basic__foter-link" href="#"><img
+                class="social__img"
+                src="./img/vk (3) 1.png"
+                alt="vk"
+                class="social"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="line__footer"></div>
+      <div class="copyright__footer">
+        <h2 class="copyright__footer-text">
+          © 2021 Создание сайта maxico.kz Перепечатка и любое использование
+          материалов возможно только при наличии ссылки на первоисточник.
+        </h2>
+      </div>
+    </footer>
+  </body>
 </html>
